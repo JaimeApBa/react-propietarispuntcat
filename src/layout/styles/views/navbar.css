@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+}
+
+.userName {
+    width: 50%;
+    display: inherit;
+    justify-content: right;
+    padding-right: 20px;
+}

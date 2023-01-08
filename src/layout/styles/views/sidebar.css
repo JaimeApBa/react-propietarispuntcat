@@ -1,0 +1,28 @@
+.sidebar {
+    width: 40%;
+    max-width: 300px;
+    height: 100%;
+}
+
+.body-sidebar {
+    padding-left: 0;
+}
+
+.li-red,
+.li-blue {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.li-red {
+    border-bottom: 1px solid hsl(0, 70%, 69%);
+}
+
+.li-blue {
+    border-bottom: 1px solid hsl(191, 71%, 40%);
+}
+
+.active {
+    font-size: 20px;
+    font-weight: bold;
+}
